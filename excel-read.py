@@ -1,5 +1,6 @@
 import xlrd
 import datetime
+import pandas as pd
 
 path = "Free/Python_Exercises/business_report.xlsx"
 excel_workbook = xlrd.open_workbook(path)
